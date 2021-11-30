@@ -3,6 +3,7 @@ import './Banner.css'
 import image from '../../images/amit-image.jpg'
 import resume from '../../images/Md.Amit Hasan_resume.pdf';
 
+
 const Banner = () => {
     return (
         <div className='row banner-background'>
@@ -17,15 +18,15 @@ const Banner = () => {
                    </div>
 
                    {/* Text  section */}
-               <h3 className='text-light text-start ms-5 mt-3'>I’m Amit Hasan. I design <br />
-                 mobile and web experiences.</h3>
-                 <p className='text-light text-start ms-5'>I am a UI\UX designer located in Hartford, Connecticut. I currently work as a part time Remote Junior Web Designer for Coolor, located in Las Vegas. I am looking to take on more work and to increase my skills as a UI\UX enthusiast.</p>
+               <h3 className='text-light text-start ms-5 mt-3'>I’m Amit Hasan. I develop <br />
+                 a full responsive single page web application in react js.</h3>
+                 <p className='text-light text-start ms-5'>I am a react developer located in Dhaka Bangladesh. I currently work as a student in Daffodil International University. I am looking to take on more work and to increase my skills as a react developer.</p>
                  
                  {/* Button section */}
                  <div className='text-start ms-5 mt-4'>
-                 <button id="contact-from " type="button " className="btn btn-light rounded-pill   ">CONTACT ME</button>
+                 {/* <button id="contact-from " type="button " className="btn btn-light rounded-pill   ">CONTACT ME</button> */}
                
-
+               <a rel="stylesheet" href="#contact" ><button type="button " className="btn btn-light rounded-pill">CONTACT ME</button> </a>
                  <a
                   className="btn btn-outline-light text-dark ms-5 rounded-pill  js-scroll px-4"
 
@@ -42,6 +43,12 @@ const Banner = () => {
                     <p><span className='text-light'>Pnone</span>  <span className='text-light ms-5 text-start'>  01727-451869</span></p>
                     <p><span className='text-light '>Email</span>  <span className='text-light ms-5 text-start'>amithasan102827@gmail.com</span></p>
                     <p><span className='text-light '>Address</span>  <span className='text-light ms-4 '>Mohammodpur, Dhaka</span></p>
+                    <p><span className='text-light '>Social</span>  <span className='text-light ms-5 '>
+                        <a className='text-light' href="https://www.facebook.com/profile.php?id=100012666663556"><i class="fab fa-facebook icon"></i></a>
+                        <a className='text-light mx-3' href="https://www.linkedin.com/in/md-amit-hasan-848385227/"><i class="fab fa-linkedin icon"></i></a>
+
+                        <a className='text-light' href="https://github.com/amithasan102827?tab=repositories"><i class="fab fa-github icon "></i> </a>
+                        </span></p>
                     
                  </div>
                </div>

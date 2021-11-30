@@ -11,6 +11,7 @@ const ContactUs = () => {
         emailjs.sendForm('service_mze3nhe', 'template_trd2x3u', form.current, 'user_tfRLyATId39GGyatDoJJH')
             .then((result) => {
                 console.log(result);
+                alert('Email send successfully')
             }, (error) => {
                 console.log(error);
             });
