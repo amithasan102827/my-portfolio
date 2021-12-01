@@ -1,5 +1,6 @@
 import React from 'react';
 import image2 from '../../images/undraw_percentages_0rur.png';
+import skillgif from '../../images/40851-pentagram-skills-of-deth.gif';
 
 const Skill = () => {
     return (

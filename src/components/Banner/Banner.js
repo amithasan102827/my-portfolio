@@ -26,10 +26,10 @@ const Banner = () => {
                  <div className='text-start ms-5 mt-4'>
                  {/* <button id="contact-from " type="button " className="btn btn-light rounded-pill   ">CONTACT ME</button> */}
                
-               <a rel="stylesheet" href="#contact" ><button type="button " className="btn btn-light rounded-pill">CONTACT ME</button> </a>
+               <a rel="stylesheet" href="#contact"  ><button style={{fontSize:'1.2vw'}} type="button " className="btn btn-light rounded-pill">CONTACT ME</button> </a>
                  <a
-                  className="btn btn-outline-light text-dark ms-5 rounded-pill  js-scroll px-4"
-
+                  className="btn btn-outline-light text-dark ms-5 rounded-pill  js-scroll px-4 "
+                   style={{fontSize:'1.2vw'}}
                   href={resume} download="YourName resume.pdf"
                   role="button"
                 >
